@@ -1,0 +1,97 @@
+// .div-ml-3 {
+//     margin-left: 20%;
+// }
+// .bg-position-1{
+//     right: -3%; 
+//     top: 10%;
+// }
+.bg-sec2 {
+    left: -3%
+}
+
+.hero-title {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.hero-title-2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#bg-sec1 {
+    width: 50%;
+    heigth: 902.52px
+}
+
+.card-sec2 {
+    width: 100%;
+    height: 190px;
+    border-radius: 30px;
+}
+.img-sec3{
+    width: 716.17px; height: 849.39px;
+}
+.bg-a {
+    background-image: url("/img/brand/image/bg-tran/Group 1157-3.png");
+    /* width: 100%; */
+    height: 1206px;
+    /* width: 1868px; */
+  }
+  .bg-b {
+    background-image: url("/img/brand/image/bg-tran/bg-5.png");
+    width: 2264px;
+    height: 761px;
+    /* width: 1868px; */
+  }
+  .text-white-to-brown{
+    color: white;
+  }
+@include media-breakpoint-up(lg) {
+    .div-ml-3 {
+        margin-left: 20%;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .div-ml-3 {
+        margin: 20px;
+    }
+    .section-shaped .shape.shape-skew+.shape-container {
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+    }
+    .container {
+        // @include make-container();
+        // @include make-container-max-widths();
+        padding-right: 2em;
+        padding-left: 2em;
+    }
+    .bg-a {
+        // background-image: url("/img/brand/image/bg-tran/bg-5.png");
+        height: fit-content;
+    }
+    .bg-sec2 {
+        left: -16%
+    }
+    .hero-title-2,
+    .hero-title {
+        font-size: 30px;
+    }
+    #bg-sec1 {
+        display: none;
+    }
+    .row-sec1 {
+        justify-content: flex-end;
+    }
+    .card-sec2 {
+        width: 100%;
+    }
+    .img-sec3{
+        width: 1216.17px;
+    height: 1049.39px;
+    }
+    .text-white-to-brown{
+        color: #534d4d;
+      }
+}
